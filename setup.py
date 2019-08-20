@@ -16,10 +16,10 @@ except ImportError:
 import lazyxml
 
 
-with open('README.rst') as fp:
+with open('README.rst', encoding="utf-8") as fp:
     readme = fp.read()
 
-with open('LICENSE') as fp:
+with open('LICENSE', encoding="utf-8") as fp:
     license = fp.read()
 
 setup(name='lazyxml',
